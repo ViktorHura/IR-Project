@@ -2,3 +2,6 @@ pandas==1.5.2
 matplotlib==3.6.2
 nltk==3.8
 gensim==4.2.0
+tensorflow==2.10.0
+scikit-learn==1.2.0
+seaborn
