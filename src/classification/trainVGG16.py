@@ -59,6 +59,7 @@ def main():
     print(len(X_train))
 
     ## create embeddings
+    # https://github.com/sharonchoong/covid19tweets/blob/main/Emotion%20Classification/Emotion%20Classification.ipynb
     def create_embedding_matrix(filepath, word_index, embedding_dim):
         vocab_size = len(word_index) + 1  # Adding again 1 because of reserved 0 index
         embedding_matrix = np.zeros((vocab_size, embedding_dim))

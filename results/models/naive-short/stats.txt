@@ -1,0 +1,14 @@
+Epochs: 3
+Batch Size: 64
+Classes: 28
+Max length: 20
+Loss 0.1192
+Validation Loss 0.1266
+Accuracy 0.4066
+Validation Accuracy 0.4000
+Recall 0.1795
+Validation Recall 0.2049
+Precision 0.6474
+Validation Precision 0.5991
+F1 0.2793
+Validation F1 0.3042

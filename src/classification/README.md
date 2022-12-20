@@ -22,13 +22,17 @@ in `results/models/{model-name}` directory.
 
 ### Training
 ```bash
-
+python trainNaive.py
 ```
+To change batchsize or number of epochs, check the variables at the top of the script.
 
 ### Validation
 ```bash
-
+python valNaive.py
 ```
+This validates `results/models/naive-short` and saves to the same directory.
+
+To change the model being validated or output directory, check the variables at the top of the script.
 
 
 ## SmallerVGG
