@@ -76,13 +76,19 @@ python valBERT.py
 This validates a pretrained BERT model and saves to `results/models/BERT`.
 
 # Classifying Lexica data
+These scripts will take the preprocessed Lexica data from `results/data/cleanData.csv` and label all 1.5M entries, resulting in a new csv.
+
+These scripts take a couple of hours for the entire dataset, make sure pytorch and tensorflow have gpu acceleration enabled!
+The VGG16 model is much faster to inference.
 
 ## using VGG16
 ```bash
-
+python VGG16Label.py
 ```
+Saved in `results/data/VGG16-labelled.csv`
 
 ## using BERT
 ```bash
-
+python BERTLabel.py
 ```
+Saved in `results/data/BERT-labelled.csv`

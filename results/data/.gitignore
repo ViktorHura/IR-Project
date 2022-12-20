@@ -1,2 +1,4 @@
 cleanData.csv
 embedding_word2vec.txt
+BERT-labelled.csv
+VGG16-labelled.csv
