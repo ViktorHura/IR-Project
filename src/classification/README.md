@@ -67,6 +67,14 @@ This validates `results/models/VGG16-short` and saves to the same directory.
 
 To change the model being validated or output directory, check the variables at the top of the script.
 
+## BERT
+
+### Validation
+```bash
+python valBERT.py
+```
+This validates a pretrained BERT model and saves to `results/models/BERT`.
+
 # Classifying Lexica data
 
 ## using VGG16
