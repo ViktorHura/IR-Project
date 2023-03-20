@@ -1,9 +1,17 @@
 # IR-Project
-This repository holds the source code for our Information Retrieval project.
 
->Mohamed Darkaoui,
-Viktor Hura,
-Mounir Madmar
+The purpose of this project was to create a search engine based on Elasticsearch for retrieving AI-generated images based on their prompts.
+
+In addition, we have used machine learning models to perform sentiment analysis on the prompts, to allow the user to tune their search results based on emotion labels.
+
+We have compared the performace of CNN, BERT and pQRNN based models for this task.
+
+For details and references, see [report/IR_report.pdf](https://github.com/ViktorHura/IR-Project/blob/main/report/IR_report.pdf)
+
+__Students:__
+- Mohamed Darkaoui
+- Viktor Hura
+- Mounir Madmar
 
 ## Requirements
 * python
